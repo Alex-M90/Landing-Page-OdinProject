@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
@@ -116,6 +116,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 70px;
+  margin-bottom: 80px;
 }
 
 .info-box {
@@ -135,4 +136,93 @@ body {
   width: 150px;
   text-align: center;
   color: rgb(65, 93, 124);
+}
+
+/* Quote Area */
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 780px;
+  font-size: 36px;
+  color: #373a3b;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-name {
+  width: 950px;
+  margin-top: -60px;
+  font-size: 25px;
+  font-weight: normal;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Product Sign-Up section */
+
+.signup-container {
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-content {
+  background-color: #3882f6;
+  width: 1050px;
+  min-height: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup-text {
+  color: white;
+}
+
+.signup-text h3 {
+  font-size: 25px;
+}
+
+.signup-text p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: -22px;
+}
+
+.signup-button button {
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 150px;
+  min-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
 }
